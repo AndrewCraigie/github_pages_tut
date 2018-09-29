@@ -1,0 +1,24 @@
+{
+  "name": "github_pages",
+  "version": "1.0.0",
+  "description": "A project to test and explore the use of GitHub Pages to host static sites",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewCraigie/github_pages_tut.git"
+  },
+  "author": "Andrew Craigie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewCraigie/github_pages_tut/issues"
+  },
+  "homepage": "https://github.com/AndrewCraigie/github_pages_tut#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
